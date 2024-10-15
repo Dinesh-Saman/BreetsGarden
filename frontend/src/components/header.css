@@ -1,0 +1,42 @@
+
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust width as needed */
+  height: auto;
+  margin-right: 10px; /* Spacing between logo and title */
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+}
+
+.user-section img {
+  width: 40px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  border-radius: 50%; /* Make image round */
+  margin-left: 10px; /* Spacing between elements */
+}
+
+.user-name {
+  margin-right: 10px; /* Spacing between name and image */
+}
+
+.center-title {
+  flex: 2;
+  text-align: center;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}

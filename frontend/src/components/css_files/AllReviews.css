@@ -1,0 +1,247 @@
+/* Reviews Container */
+.reviews-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Title */
+  .reviews-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem; /* Add some margin to separate from the top */
+    text-align: center;
+  }
+  
+  /* Reviews Summary */
+  .reviews-summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    justify-content: center; /* Center the summary box */
+  }
+  
+  .average-rating-box {
+    background-color: #0048ba;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .average-rating {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .rating-summary {
+    margin-left: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .rating-label {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Controls (Search & Sort) */
+  .reviews-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .search-input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    width: 250px;
+  }
+  
+  .sort-select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  /* Reviews Grid */
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* Review Card */
+  .review-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Review Header */
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .review-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .review-country {
+    color: gray;
+    font-size: 0.9rem;
+  }
+  
+  /* Review Image */
+  .review-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Star Ratings */
+  .review-stars {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  /* Review Title */
+  .review-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Review Text */
+  .review-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Actions (Edit/Delete) */
+  .review-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .edit-button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+  .edit-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .delete-button {
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #dc2626;
+  }
+  
+  /* Add Review Button */
+  .add-review-button {
+    display: inline-block;
+    margin-top: 2rem;
+    background-color: #22c55e;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .add-review-button:hover {
+    background-color: #16a34a;
+  }
+  
+  /* Modal overlay (background) */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Modal content */
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Modal close button */
+  .modal-close-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-close-button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Modal confirm and cancel buttons */
+  .modal-confirm-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-confirm-button:hover {
+    background-color: #dc2626;
+  }
+  
+  .modal-cancel-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-cancel-button:hover {
+    background-color: #1e40af;
+  }
+  

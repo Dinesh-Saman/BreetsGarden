@@ -1,0 +1,132 @@
+/* spaAppointment.css */
+
+.appointment-form, .payment-page {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form h2, .payment-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.appointment-form form div, .payment-page div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.spa-appointment input[type="date"],
+.spa-appointment input[type="time"],
+.spa-appointment input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.spaddd {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.spaddd:hover {
+    background-color: #0277bd;
+}
+
+.appointment-form button[type="submit"],
+.payment-page button {
+    background-color: #0288d1;
+}
+
+.appointment-form button[type="submit"]:hover,
+.payment-page button:hover {
+    background-color: #0277bd;
+}
+
+/* Align form content and style */
+.appointment-form div, .payment-page div {
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment-form p, .payment-page p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Extra style for the payment page */
+
+/* Payment page styling */
+.apayment-page {
+    background-color: #ffffff;
+    margin: 50px auto;
+    padding: 30px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.apayment-page h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.apayment-page p {
+    font-size: 16px;
+    color: #555555;
+    margin: 8px 0;
+}
+
+.apayment-page p strong {
+    color: #333333;
+}
+.apayment-page .price {
+    font-weight: bold;
+    color: #2e3c7d;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
+
+.apayment-page button {
+    background-color: #2850a7;
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.apayment-page button:hover {
+    background-color: #09096a;
+}

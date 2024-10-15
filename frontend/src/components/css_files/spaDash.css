@@ -1,0 +1,522 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background-color: #d8ecf6;*/
+    background: linear-gradient(rgba(117, 117, 117, 0.5), rgba(90, 90, 90, 0.5)), url(images/breet.png);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #0e0e0f;
+}
+
+/* Container styling */
+.spaa {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(rgba(209, 208, 208, 0.5), rgba(201, 201, 201, 0.5)),url(images/spaBack.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Header styling */
+.header {
+    margin-bottom: 30px;
+}
+
+.header img {
+    max-width: 120px;
+}
+
+.header h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #2c3e50;
+    margin: 10px 0 5px;
+}
+
+.header h2 {
+    font-size: 28px;
+    color: #0e2d6f;
+    margin: 5px 0 20px;
+}
+
+/* Description styling */
+.description {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #394060;
+}
+
+/* Service section styling */
+.service-section {
+    display: flex;
+    margin-top: -180px;
+    margin-left: 200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 20%;
+}
+
+.service-card1 {
+    background-color: rgba(71, 110, 130, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 35%;
+    height: 10%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.service-card2 {
+    background-image: linear-gradient(rgba(209, 208, 208, 0.5), rgba(201, 201, 201, 0.5)),url(images/spa2.jpeg);
+    border-radius: 10px;
+    background-size: 60%;
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 45%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.service-card3 {
+    background-image: linear-gradient(rgba(209, 208, 208, 0.5), rgba(201, 201, 201, 0.5)),url(images/spa3.jpeg);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 45%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.service-card4 {
+    background-image: linear-gradient(rgba(209, 208, 208, 0.5), rgba(201, 201, 201, 0.5)),url(images/spa4.jpeg);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 45%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.service-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.massage {
+    font-size: 22px;
+    color: #030303;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #858888;
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+.book-now-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #1339ab;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.book-now-button:hover {
+    background-color: #08194c;
+}
+
+
+
+/* Header Section */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ddl{
+    text-align: center;
+    color: #333;
+
+}
+
+/*.header h1 {
+    font-size: 24px;
+    color: #4A4A4A;
+}*/
+
+.header p {
+    font-size: 16px;
+    color: black;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 15%;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin-bottom:10px;
+    margin-top: 40px;
+    margin-right: 0px;
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.filter-group select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.btn-filter,
+.btn-reset {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #7b4ead;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background-color: #00a7c9;
+}
+
+.btn-filter:hover,
+.btn-reset:hover {
+    opacity: 0.9;
+}
+
+/* Packages List */
+.packages-list {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-list{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.package {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 700px;
+}
+
+
+.activity-image{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.service-image{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.service-details {
+    height: 30%;
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+
+.package-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-info {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.btn-favorite {
+    display: inline-block;
+    font-size: 14px;
+    color: #7b4ead;
+    background-color: transparent;
+    border: 1px solid #7b4ead;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-favorite:hover {
+    background-color: #7b4ead;
+    color: #fff;
+}
+
+.price-book {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+.btn-book {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #7b4ead;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-book:hover {
+    background-color: #5f3a92;
+}
+
+
+
+/*Appointment page*/
+.appointment-form {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #c9e3f1; /* Light background for a clean look */
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px; /* Limiting max width for better aesthetics */
+     /* Center the form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.appointment-form h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    border-color: #007bff;
+}
+
+.appointment-form label {
+    display: block;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 5px;
+    border-color: #007bff;
+}
+
+.appointment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border-color: #007bff;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.appointment-form input:focus {
+    border-color: #007BFF; /* Blue highlight when focused */
+    outline: none;
+}
+
+/* General form styles */
+.appointment-form input[type="date"] {
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 6px;
+    font-size: 16px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 100%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.appointment-form input[type="date"]:focus {
+    border-color: #0056b3; /* Darker blue on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue glow on focus */
+}
+
+.appointment-form input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.appointment-form input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+/* Calendar pop-up customization for webkit browsers */
+.appointment-form input[type="date"]::-webkit-datetime-edit {
+    color: #333;
+}
+
+.appointment-form input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+.appointment-form input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    opacity: 1; /* Full opacity on hover */
+}
+
+.appointment-form input[type="date"]::-webkit-calendar-picker-indicator:active {
+    background-color: #0056b3; /* Active background on click */
+}
+
+/* Custom date picker styles for browsers that support it */
+.appointment-form input[type="date"]::after {
+    content: '';
+    background: url('./images/back1.jpeg') no-repeat;
+    background-size: contain;
+}
+
+/* Container for calendar button */
+.calendar-icon-container {
+    display: inline-block;
+    position: relative;
+}
+
+.calendar-icon-container input[type="date"] {
+    padding-right: 40px; /* To ensure space for the calendar icon */
+}
+
+.calendar-icon-container::after {
+    content: '\1F4C5'; /* Unicode calendar emoji as fallback icon */
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #007bff;
+}
+
+/* Input field hover and active states */
+.appointment-form input[type="date"]:hover {
+    border-color: #0056b3;
+}
+
+.appointment-form input[type="date"]:active {
+    border-color: #003f7f;
+}
+
+
+.appointment-form input[type="time"], [type = "text"] {
+    appearance: none; /* Remove default date and time input styling */
+    background-color: #fff;
+    border-color:  #007bff;
+}
+
+.appointment-form button.spaddd {
+    width: 50%;
+    padding: 12px;
+    margin-left: 120px;
+    background-color: #007BFF; /* Primary blue color for the button */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-form button.spaddd:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.appointment-form span {
+    font-size: 12px;
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .appointment-form {
+        padding: 15px;
+    }
+
+    .appointment-form input, 
+    .appointment-form button.spaddd {
+        font-size: 14px;
+    }
+}
+
+

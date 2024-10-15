@@ -1,0 +1,188 @@
+/* General Styles */
+.facilityy {
+    font-family: 'Georgia', serif;
+    background-image: linear-gradient(rgba(0, 51, 102, 0.4), rgba(0, 51, 102, 0.4)), url(images/hotel1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #E3E9EC;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: left;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px #fff;
+    border-bottom: 2px solid #000;
+}
+
+h3, h4 {
+    color: #000;
+    margin: 10px 0;
+}
+
+.head{
+    color:#11005a;
+    font-weight: bold;
+    margin-left: 200px;
+   
+}
+
+.f {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.fac1{
+    margin-bottom: -24px;
+    margin-left: 70px;
+    font-weight: bold;
+    
+}
+
+.fac2{
+    margin-bottom: -24px;
+    margin-left: 270px;
+    font-weight: bold;
+}
+
+.fac3{
+    margin-bottom: -24px;
+    margin-left: 410px;
+    font-weight: bold;
+}
+
+.fac4{
+   
+    margin-left: 570px;
+    font-weight: bold;
+}
+.fd, .fdd {
+    /*margin-bottom: -30px;*/
+    color: #000;
+    text-decoration: none;
+}
+
+/* Section Styles */
+.facilityD {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.most {
+    margin: 40px auto;
+    padding: 10px;
+    margin-left: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 900px;
+   
+}
+
+.swm{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(151, 77, 175, 0.5);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 750px;
+    margin-bottom: 30px;
+}
+
+.gg{
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 750px;
+}
+
+.access {
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: -70px;
+}
+
+.cle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #4b4b4b;
+    font-size: 20px;
+}
+
+.vi{
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 10px;
+    max-width: 750px;
+}
+
+.clean{
+    padding: 10px;
+   /* background-color: rgba(151, 77, 175, 0.5);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);*/
+    margin-left: 190px;
+    border-radius: 10px;
+    margin-top: -170px;
+    max-width: 750px;
+}
+
+.conv{
+    margin-top: 10px;
+    margin-left: 490px;
+    padding-top: 30px;
+    margin-top: -350px;
+}
+
+h6{
+    color: #11005a;
+}
+
+.cl{
+    margin-top: -15px;
+}
+
+/* Cleanliness and Safety */
+body > div:last-child {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 750px;
+    border-left: 5px solid #4a90e2;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    h3, h4 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .most, .swm, .access, body > div:last-child {
+        padding: 10px;
+    }
+}

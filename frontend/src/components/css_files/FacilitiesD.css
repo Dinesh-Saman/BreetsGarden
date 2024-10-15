@@ -1,0 +1,120 @@
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .navbar .nav-item {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .navbar .nav-item1 {
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .navbar .nav-item2 {
+    color: white;
+    padding-right: 180px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .navbar .nav-item:hover {
+    background-color: #575757;
+    color: white;
+  }
+  
+  /* Main page styling */
+  .facilityy {
+    background-image: url('images/hotel1.jpg'); /* Replace with your background image */
+    background-size: cover;
+    padding: 0;
+  }
+  
+  .facilityD {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .most {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .head {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .facility-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .facility-list li {
+    margin: 10px 0;
+  }
+  
+  .facility-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .facility-list li a:hover {
+    color: #007bff;
+  }
+  
+  .gg {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .vi, .clean, .conv, .access {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .clean, .conv, .access {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .cle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cl, .f {
+    margin: 5px 0;
+  }
+  

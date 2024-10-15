@@ -1,0 +1,251 @@
+/* DayoutDashboard.css */
+
+/* General Container */
+.container1 {
+    max-width: 1600px;
+    margin: 0 ;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /*background-color: rgba(200, 229, 252, 0.8);*/
+    background: linear-gradient(rgba(73, 73, 73, 0.5), rgba(90, 90, 90, 0.5)), url(images/breet.png);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.navbar1 {
+    background-color: #333;
+    overflow: hidden;
+    text-align: left;
+    padding: 20px;
+    margin-right: -20px;
+  }
+  
+  .navbar1 .nav-item12 {
+    color: white;
+    padding-left: 200px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .navbar1 .nav-item11 {
+    color: white;
+    padding-left: 200px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .navbar1 .nav-item14 {
+    color: white;
+    padding-left: 200px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .navbar1 .nav-item13 {
+    color: white;
+    padding-left: 200px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .navbar1 .nav-item11:hover {
+    background-color: #575757;
+    color: white;
+  }
+
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(200, 229, 252, 0.8);
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ddl{
+    text-align: center;
+    color: #333;
+
+}
+
+/*.header h1 {
+    font-size: 24px;
+    color: #4A4A4A;
+}*/
+
+.header p {
+    font-size: 16px;
+    color: #0d0d0d;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    height: 20%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin-bottom: 900px;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.filter-group select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.btn-filter,
+.btn-reset {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #7b4ead;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background-color: #00a7c9;
+}
+
+.btn-filter:hover,
+.btn-reset:hover {
+    opacity: 0.9;
+}
+
+/* Packages List */
+.packages-list {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-list{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.package {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.service-image{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.package-image {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.activity-image{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.package-details {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.package-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.package-info {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.btn-favorite {
+    display: inline-block;
+    font-size: 14px;
+    color: #3d55c3;
+    background-color: transparent;
+    border: 1px solid #3d55c3;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-favorite:hover {
+    background-color: #1e3185;
+    color: #fff;
+}
+
+.price-book {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+.btn-book {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #3d55c3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.btn-book:hover {
+    background-color: #3d55c3;
+}

@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(rgba(172, 172, 172, 0.5), rgba(213, 212, 212, 0.5)),url(images/hotel1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #E3E9EC;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #4a90e2;
+    font-size: 36px;
+    border-bottom: 2px solid #4a90e2;
+    margin-bottom: 40px;
+}
+
+h3, h4 {
+    color: #4a90e2;
+    margin: 10px 0;
+}
+
+.f {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.fd{
+    color: black;
+    
+}
+
+.fdd{
+    color: black;
+    text-decoration: none;
+}
+
+/* Section Styles */
+
+.facilityD{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(114, 113, 113);
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
+
+.most, .swm, .access {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+/* Specific Section Styles */
+.most {
+    border-left: 5px solid #ff6b6b;
+}
+
+.swm {
+    border-left: 5px solid #4a90e2;
+}
+
+.access {
+    border-left: 5px solid #50c878;
+}
+
+/* Cleanliness and Safety */
+body > dev:last-child {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+    border-left: 5px solid #f4d03f;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h3, h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .most, .swm, .access, body > dev:last-child {
+        padding: 15px;
+    }
+}
